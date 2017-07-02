@@ -1,0 +1,44 @@
+body {
+    width: 300px;
+}
+
+.Section {
+}
+
+.New.Disabled {
+    color: #cccccc;
+}
+.New #words {
+    width: 90%;
+}
+
+.New #add {
+    background-color: #cc3333;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #111111;
+}
+.New.Disabled #add {
+    color: #5f5555;
+    background-color: #cfcccc;
+}
+
+.Subscription span {
+    color: #5f5555;
+    display: inline-block;
+    font-style: italic;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Subscription input {
+    background-color: #ee5555;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #111111;
+}

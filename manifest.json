@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+
+    "name": "Rss sniffer",
+    "description": "This extension monitors subscribed RSS feeds to find specified keywords in them. All posts that don't contain the keywords are ignored.",
+    "version": "0.91",
+
+    "browser_action": {
+        "default_icon": "icons/default.png",
+        "default_title": "RSS Sniffer",
+        "default_popup": "popup.html"
+    },
+
+    "background": {
+        "scripts": ["pageSearch.js"],
+        "persistent": false
+    },
+
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "webNavigation",
+        "storage",
+        "notifications",
+        "<all_urls>"
+    ]
+}
